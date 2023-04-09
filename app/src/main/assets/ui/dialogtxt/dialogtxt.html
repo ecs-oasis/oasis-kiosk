@@ -1,0 +1,6 @@
+<div id="bg-dialog" class="dialogtxt" ng-click="$event.stopPropagation();startTimer();hideDialogTxt();onClickDialogTxt();">
+  <div id="box-dialog">
+    <img ng-src="img/img_{{dialogtxtType == 'err' ? 4:9}}.png">
+    <div id="title-dialog">{{dialogTxt}}</div>
+  </div>
+</div>

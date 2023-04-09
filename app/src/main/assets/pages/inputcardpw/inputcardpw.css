@@ -1,0 +1,178 @@
+
+[ng-controller="InputCardPwController"] #txt-desc2 {
+  position: absolute;
+  width: 716px;
+  height: 140px;
+  left: 182px;
+  top: 1320px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 70px;
+  /* or 146% */
+
+  text-align: center;
+
+  color: #333333;
+}
+
+[ng-controller="InputCardPwController"] #txt-desc {
+  position: absolute;
+  width: 406px;
+  height: 48px;
+  left: 337px;
+  top: 910px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #333333;
+}
+
+[ng-controller="InputCardPwController"] #txt-title {
+  /* 방문해주셔서 반갑습니다. */
+  position: absolute;
+  width: 827px;
+  height: 100px;
+  left: 127px;
+  top: 666px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 100px;
+  /* identical to box height, or 135% */
+
+  text-align: center;
+
+  color: #171717;
+}
+
+[ng-controller="InputCardPwController"] #btn-next{
+  position: absolute;
+  width: 945px;
+  height: 232px;
+  left: 67px;
+  top: 1524px;
+}
+
+[ng-controller="InputCardPwController"] #btn-next-bg{
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #FABE00;
+  border: 6px solid #FFD44E;
+  box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+
+[ng-controller="InputCardPwController"] #txt-btn-next{
+  /* 차량번호 입력하기 */
+  position: absolute;
+  left: 27.2%;
+  right: 27.2%;
+  top: 36.21%;
+  bottom: 36.21%;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 64px;
+  text-align: center;
+
+  color: #171717;
+}
+
+[ng-controller="InputCardPwController"] #box-input-carnum {
+  position: absolute;
+  width: 245px;
+  height: 132px;
+  left: 379px;
+  top: 1010px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 119px;
+  text-align: center;
+  letter-spacing: -2px;
+
+  color: #C0C0C0;
+}
+
+[ng-controller="InputCardPwController"] #input-carnum-hint {
+  position: absolute;
+  width: 245px;
+  height: 132px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 119px;
+  text-align: center;
+  letter-spacing: -2px;
+
+  color: #C0C0C0;
+
+}
+
+[ng-controller="InputCardPwController"] #input-carnum {
+  position: absolute;
+  width: 245px;
+  height: 132px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 119px;
+  text-align: center;
+  letter-spacing: -2px;
+
+  color: #000000;
+}
+
+[ng-controller="InputCardPwController"] #box-star {
+  position: absolute;
+  width: 118px;
+  height: 119px;
+  left: 583px;
+  top: 1010px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 119px;
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #B1B1B1;
+}
+
+[ng-controller="InputCardPwController"] #input-line {
+  position: absolute;
+  width: 202px;
+  height: 0px;
+  left: 400px;
+  top: 1153px;
+
+  border: 2.5px solid #C0C0C0;
+}

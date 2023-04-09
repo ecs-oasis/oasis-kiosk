@@ -1,0 +1,84 @@
+.dialogyn#bg-dialog {
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  background: #000000aa;
+  z-index: 9;
+}
+
+.dialogyn #box-dialog {
+  position: absolute;
+  width: 945px;
+  height: 695px;
+  left: 67px;
+  top: 777px;
+  background: #FFFFFF;
+  border-radius: 55px;
+}
+
+.dialogyn #title-dialog {
+  position: absolute;
+  width: 823px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 170px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 70px;
+  /* or 146% */
+
+  text-align: center;
+
+  color: #171717;
+}
+
+.dialogyn #box-btn {
+  gap: 20px;
+  position: absolute;
+  width: 853px;
+  height: 143px;
+  left: 50px;
+  top: 496px;
+  display: flex;
+}
+
+.dialogyn #btn-ok {
+  /* Rectangle 45 */
+  flex: 1;
+  background: #FABE00;
+  border-radius: 20px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  color: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialogyn #btn-cancel {
+  /* Rectangle 46 */
+  flex: 1;
+  background: #E1E1E1;
+  border-radius: 16px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  color: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

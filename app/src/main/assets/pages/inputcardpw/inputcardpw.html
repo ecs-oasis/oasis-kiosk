@@ -1,0 +1,29 @@
+<div ng-controller="InputCardPwController">
+  <div id="txt-title">
+    카드 비밀번호 앞 2자리를<br>
+    입력해주세요.
+  </div>
+
+  <div id="txt-desc">
+    카드 비밀번호 앞 2자리
+  </div>
+
+  <div id="box-input-carnum" ng-click="showInput('number')">
+    <div id="input-carnum-hint" ng-if="!cardInfo.cardPwd">00</div>
+    <div id="input-carnum" ng-if="cardInfo.cardPwd">{{cardInfo.cardPwd | password}}</div>
+  </div>
+  <div id="box-star">**</div>
+  <div id="input-line"></div>
+
+  <div id="txt-desc2">
+    입력하신 정보는 보안서버에
+    이중 보안 처리 됨으로 안심하세요.
+  </div>
+
+  <div id="btn-next" ng-class="{'disabled':!isValidCardPw(cardInfo.cardPwd)}" ng-click="registerCard()">
+    <div id="btn-next-bg">
+    </div>
+    <div id="txt-btn-next">입력완료</div>
+  </div>
+
+</div>

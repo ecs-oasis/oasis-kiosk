@@ -1,0 +1,149 @@
+[ng-controller="EnterCarController"] .txt-sub-title {
+  position: absolute;
+  width: 756px;
+  height: 48px;
+  left: 162px;
+  top: 666px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+  text-align: center;
+  color: #333333;
+}
+
+[ng-controller="EnterCarController"] .txt-main-title {
+  position: absolute;
+  width: 472px;
+  height: 100px;
+  left: 304px;
+  top: 746px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 100px;
+  /* identical to box height, or 135% */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  color: #171717;
+}
+[ng-controller="EnterCarController"] .txt-title {
+  position: absolute;
+  width: 472px;
+  height: 200px;
+  left: 304px;
+  top: 666px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 100px;
+  /* or 135% */
+
+  text-align: center;
+
+  color: #171717;
+}
+
+[ng-controller="EnterCarController"] #txt-badge {
+  position: absolute;
+  width: 314px;
+  height: 72px;
+  left: 383px;
+  top: 886px;
+  background: #FABE00;
+  border-radius: 41px;
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 72px;
+  text-align: center;
+  color: #171717;
+}
+
+[ng-controller="EnterCarController"] .txt-desc {
+  position: absolute;
+  width: 749px;
+  height: 140px;
+  left: 165px;
+  top: 1320px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 70px;
+  /* or 146% */
+
+  text-align: center;
+
+  color: #171717;
+}
+
+[ng-controller="EnterCarController"] #btn-next{
+  position: absolute;
+  width: 945px;
+  height: 232px;
+  left: 67px;
+  top: 1524px;
+}
+
+[ng-controller="EnterCarController"] #btn-next-bg{
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #FABE00;
+  border: 6px solid #FFD44E;
+  box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+
+[ng-controller="EnterCarController"] #txt-btn-next{
+  /* 차량번호 입력하기 */
+  position: absolute;
+  left: 27.2%;
+  right: 27.2%;
+  top: 36.21%;
+  bottom: 36.21%;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 64px;
+  text-align: center;
+
+  color: #171717;
+}
+
+[ng-controller="EnterCarController"] #img-next{
+  position: absolute;
+  width: 15.55px;
+  height: 28.13px;
+  left: 930px;
+  top: 1384px;
+
+}
+
+[ng-controller="EnterCarController"] #img-icon {
+  position: absolute;
+  width: 178px;
+  height: 178px;
+  left: 451px;
+  top: 1050px;
+}

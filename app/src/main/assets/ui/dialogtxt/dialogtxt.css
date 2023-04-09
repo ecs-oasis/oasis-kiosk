@@ -1,0 +1,50 @@
+.dialogtxt#bg-dialog {
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  background: #000000aa;
+  z-index: 9;
+}
+
+.dialogtxt #box-dialog img{
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 200px;
+}
+
+.dialogtxt #box-dialog {
+  position: absolute;
+  width: 945px;
+  height: 695px;
+  left: 67px;
+  top: 777px;
+  background: #FFFFFF;
+  border-radius: 55px;
+}
+
+.dialogtxt #title-dialog {
+  position: absolute;
+  width: 823px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 350px;
+  white-space: pre-wrap;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 70px;
+  /* or 146% */
+
+  text-align: center;
+
+  color: #171717;
+}

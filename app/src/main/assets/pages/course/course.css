@@ -1,0 +1,142 @@
+[ng-controller="CourseController"] #txt-title {
+  /* 세차 코스를 선택해주세요. */
+  position: absolute;
+  width: 849px;
+  height: 100px;
+  left: 116px;
+  top: 666px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 100px;
+  /* identical to box height, or 135% */
+
+  text-align: center;
+
+  color: #171717;
+
+}
+
+[ng-controller="CourseController"] #list {
+  position: absolute;
+  width: 1080px;
+  height: 1020px;
+  top: 900px;
+  overflow-y: auto;
+  text-align: center;
+}
+
+[ng-controller="CourseController"] #list .card.selected {
+  background: #FABE00;
+}
+
+[ng-controller="CourseController"] #list .card:active {
+  background: #FABE00;
+}
+
+[ng-controller="CourseController"] #list .card {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+
+  width: 945px;
+  height: 405px;
+
+  background: linear-gradient(111.22deg, #F9F9F9 8.85%, #FFFFFF 82.19%);
+  border: 6px solid #FFD44E;
+  box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  margin-bottom: 60px;
+}
+
+#list .card .title {
+  position: absolute;
+  height: 60px;
+  left: 60px;
+  top: 50px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  /* identical to box height */
+
+  text-align: left;
+
+  color: #171717;
+}
+
+#list .card .desc {
+  position: absolute;
+  width: 536px;
+  left: 60px;
+  top: 140px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 56px;
+  /* or 140% */
+  text-align: left;
+
+  color: #898989;
+}
+
+#list .card .price {
+  position: absolute;
+  height: 74px;
+  left: 60px;
+  top: 280px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 74px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #171717;
+}
+
+#list .card.selected .best {
+  color: #FFFFFF;
+  background: #000000;
+}
+
+#list .card .using {
+  width: 100px;
+  height: 100px;
+  right: 50px;
+  position: absolute;
+  bottom: 50px;
+}
+#list .card .best {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 148px;
+  height: 59px;
+  right: 60px;
+  top: 50px;
+
+  background: #FABE00;
+  border-radius: 16px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #171717;
+}

@@ -1,0 +1,68 @@
+[ng-controller="AgreeController"] #box-agree * {
+  font-family: S-Core Dream;
+}
+[ng-controller="AgreeController"] #box-agree > div{
+  text-align: center;
+}
+[ng-controller="AgreeController"] #box-agree {
+  font-size: 14px;
+  overflow-y: scroll;
+}
+[ng-controller="AgreeController"] #box-agree .container {
+  width: 815px;
+  opacity: 1;
+  position: relative;
+  display: inline-block;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  margin-top: 60px;
+}
+[ng-controller="AgreeController"] #box-agree .title {
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  display: block;
+  font-weight: 700;
+  font-size: 32px;
+  color: #181818;
+}
+[ng-controller="AgreeController"] #box-agree .sub-title img {
+  width: 42px;
+  height: 42px;
+}
+[ng-controller="AgreeController"] #box-agree .sub-title div.select{
+  height: 42px;
+  line-height: 42px;
+  display: inline-block;
+  margin-left: auto;
+  color: #8D8D8D;
+  font-weight: 500;
+  font-size: 24px;
+}
+[ng-controller="AgreeController"] #box-agree .sub-title div{
+  margin-left: 10px;
+  height: 42px;
+  line-height: 42px;
+  display: inline-block;
+}
+[ng-controller="AgreeController"] #box-agree .sub-title {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  display: flex;
+  text-align: left;
+  position: relative;
+  font-weight: 600;
+  font-size: 28px;
+  height: 42px;
+  color: #333333;
+}
+[ng-controller="AgreeController"] #box-agree .content {
+  margin-bottom: 20px;
+  text-align: left;
+  position: relative;
+  display: block;
+  font-weight: 200;
+  font-size: 24px;
+  color: #333333;
+}

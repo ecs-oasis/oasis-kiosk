@@ -1,0 +1,37 @@
+[ng-controller="MainController"] #txt-title {
+  position: absolute;
+  width: 778px;
+  height: 200px;
+  left: 151px;
+  top: 920px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 100px;
+  /* or 135% */
+
+  text-align: center;
+
+  color: #171717;
+}
+
+[ng-controller="MainController"] #txt-desc {
+  position: absolute;
+  width: 762px;
+  height: 140px;
+  left: 159px;
+  top: 1500px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 70px;
+  /* or 146% */
+
+  text-align: center;
+
+  color: #333333;
+}

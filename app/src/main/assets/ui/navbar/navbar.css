@@ -1,0 +1,36 @@
+
+#box-btn-nav {
+  position: absolute;
+  width: 945px;
+  height: 48px;
+  left: 67px;
+  top: 530px;
+}
+
+#btn-back {
+  position: absolute;
+  left: 0%;
+  right: 93.65%;
+  height: 48px;
+}
+
+#btn-home {
+  /* 이용종료 */
+
+  position: absolute;
+  left: 83.7%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #333333;
+}

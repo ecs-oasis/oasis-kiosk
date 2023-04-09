@@ -1,0 +1,19 @@
+<div ng-controller="InputCarNumController">
+  <div id="txt-title">
+    고객님의 차량번호를<br>
+    입력해주세요.
+  </div>
+
+  <div id="box-input-carnum" ng-click="showInput('number')">
+    <div id="input-carnum-hint" ng-if="!carNum">12거 3456</div>
+    <div id="input-carnum" ng-if="carNum">{{carNum}}</div>
+  </div>
+  <div id="input-line"></div>
+
+  <div id="btn-next" ng-class="{'disabled':!isValidCarNum(carNum)}" ng-click="login()">
+    <div id="btn-next-bg">
+    </div>
+    <div id="txt-btn-next">입력완료</div>
+  </div>
+
+</div>

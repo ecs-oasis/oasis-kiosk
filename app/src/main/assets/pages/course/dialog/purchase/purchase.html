@@ -1,0 +1,15 @@
+<div id="bg-dialog" class="dialog-purchase" ng-click="$event.stopPropagation();startTimer();">
+  <div id="box-dialog">
+    <div id="title-dialog">
+      {{curCourse.name}}가 맞으신가요?
+    </div>
+    <div id="desc-dialog">
+      {{curCourse.name}} 선택 시
+      <span>{{curCourse.price | currency:"":0}}원</span>이 결제됩니다.
+    </div>
+    <div id="box-btn">
+      <div id="btn-cancel" ng-click="cancel();">취소</div>
+      <div id="btn-ok" ng-click="payCard();">확인</div>
+    </div>
+  </div>
+</div>

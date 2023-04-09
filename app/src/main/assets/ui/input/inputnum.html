@@ -1,0 +1,18 @@
+<div id="box-inputnum" ng-if="mode === 'number'">
+  <div ng-click="$event.stopPropagation();startTimer();input('1')">1</div>
+  <div ng-click="$event.stopPropagation();startTimer();input('2')">2</div>
+  <div ng-click="$event.stopPropagation();startTimer();input('3')">3</div>
+  <div class="gray">&nbsp</div>
+  <div ng-click="$event.stopPropagation();startTimer();input('4')">4</div>
+  <div ng-click="$event.stopPropagation();startTimer();input('5')">5</div>
+  <div ng-click="$event.stopPropagation();startTimer();input('6')">6</div>
+  <div class="gray">&nbsp</div>
+  <div ng-click="$event.stopPropagation();startTimer();input('7')">7</div>
+  <div ng-click="$event.stopPropagation();startTimer();input('8')">8</div>
+  <div ng-click="$event.stopPropagation();startTimer();input('9')">9</div>
+  <div class="gray">&nbsp</div>
+  <div ng-click="$event.stopPropagation();startTimer();showInput('hangul');" class="gray text">한글</div>
+  <div ng-click="$event.stopPropagation();startTimer();input('0')">0</div>
+  <div ng-click="$event.stopPropagation();startTimer();inputEnter()" class="gray text">확인</div>
+  <div ng-click="$event.stopPropagation();startTimer();inputRemove()" class="gray"><img src="img/img_5.png"/></div>
+</div>

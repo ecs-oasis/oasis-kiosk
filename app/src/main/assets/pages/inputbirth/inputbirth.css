@@ -1,0 +1,135 @@
+
+[ng-controller="InputBirthController"] #txt-desc {
+  position: absolute;
+  width: 283px;
+  height: 48px;
+  left: 399px;
+  top: 890px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #333333;
+}
+
+[ng-controller="InputBirthController"] #txt-title {
+  /* 방문해주셔서 반갑습니다. */
+  position: absolute;
+  width: 827px;
+  height: 100px;
+  left: 127px;
+  top: 666px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 100px;
+  /* identical to box height, or 135% */
+
+  text-align: center;
+
+  color: #171717;
+}
+
+[ng-controller="InputBirthController"] #btn-next{
+  position: absolute;
+  width: 945px;
+  height: 232px;
+  left: 67px;
+  top: 1524px;
+}
+
+[ng-controller="InputBirthController"] #btn-next-bg{
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #FABE00;
+  border: 6px solid #FFD44E;
+  box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+
+[ng-controller="InputBirthController"] #txt-btn-next{
+  /* 차량번호 입력하기 */
+  position: absolute;
+  left: 27.2%;
+  right: 27.2%;
+  top: 36.21%;
+  bottom: 36.21%;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 64px;
+  text-align: center;
+
+  color: #171717;
+}
+
+[ng-controller="InputBirthController"] #box-input-carnum {
+  position: absolute;
+  width: 489px;
+  height: 143px;
+  left: 295px;
+  top: 990px;
+}
+
+[ng-controller="InputBirthController"] #input-carnum-hint {
+  /* 0000 0000 0000 12 */
+  width: 489px;
+  height: 119px;
+  left: 295px;
+  top: 990px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 119px;
+  text-align: center;
+  letter-spacing: -2px;
+
+  color: #C0C0C0;
+}
+
+[ng-controller="InputBirthController"] #input-carnum {
+  /* 0000 0000 0000 12 */
+  width: 489px;
+  height: 119px;
+  left: 295px;
+  top: 990px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 119px;
+  text-align: center;
+  letter-spacing: -2px;
+
+  color: #000000;
+}
+
+[ng-controller="InputBirthController"] #input-line {
+/* Line 10 */
+  position: absolute;
+  width: 476px;
+  height: 0px;
+  left: 302px;
+  top: 1133px;
+
+  border: 2.5px solid #C0C0C0;
+}

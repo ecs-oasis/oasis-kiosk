@@ -1,0 +1,59 @@
+* {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+body {
+  background: #171717;
+  margin: 0;
+  height: 100vh; width: 100vw; overflow: hidden;
+}
+
+#logo {
+  position: absolute;
+  width: 293px;
+  height: 300px;
+  left: 393px;
+  top: 76px;
+}
+
+#bg-board {
+  position: absolute;
+  width: 1080px;
+  height: 1480px;
+  left: 0px;
+  top: 440px;
+
+  background: #F4F4F4;
+  border-radius: 55px 55px 0px 0px;
+}
+
+.disabled{
+  opacity: .5;
+}
+
+.btn-test {
+  position:absolute;
+  width: 200px;
+  height: 200px;
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  font-size: 40px;
+}
+
+.test-car {
+  left: 300px;
+  top: 0px;
+}
+
+.test-card {
+  left: 600px;
+  top: 0px;
+}
+

@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'S-Core Dream';
+  font-weight: 100;
+  font-style: normal;
+  src: url(../font/SCoreDream1.woff2) format('woff2'),
+  url(../font/SCoreDream1.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  font-weight: 200;
+  font-style: normal;
+  src: url(../font/SCoreDream2.woff2) format('woff2'),
+  url(../font/SCoreDream2.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  font-weight: 300;
+  font-style: normal;
+  src: url(../font/SCoreDream3.woff2) format('woff2'),
+  url(../font/SCoreDream3.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  font-weight: 400;
+  font-style: normal;
+  src: url(../font/SCoreDream4.woff2) format('woff2'),
+  url(../font/SCoreDream4.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  font-weight: 500;
+  font-style: normal;
+  src: url(../font/SCoreDream5.woff2) format('woff2'),
+  url(../font/SCoreDream5.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  font-weight: 600;
+  font-style: normal;
+  src: url(../font/SCoreDream6.woff2) format('woff2'),
+  url(../font/SCoreDream6.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  font-weight: 700;
+  font-style: normal;
+  src: url(../font/SCoreDream7.woff2) format('woff2'),
+  url(../font/SCoreDream7.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  font-weight: 800;
+  font-style: normal;
+  src: url(../font/SCoreDream8.woff2) format('woff2'),
+  url(../font/SCoreDream8.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  font-weight: 900;
+  font-style: normal;
+  src: url(../font/SCoreDream9.woff2) format('woff2'),
+  url(../font/SCoreDream9.woff) format('woff');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Apple SD Gothic Neo';
+  font-weight: 100;
+  font-style: normal;
+  src: url(../font/AppleSDGothicNeoT.woff2) format('woff2'),
+  url(../font/AppleSDGothicNeoT.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Apple SD Gothic Neo';
+  font-weight: 200;
+  font-style: normal;
+  src: url(../font/AppleSDGothicNeoUL.woff2) format('woff2'),
+  url(../font/AppleSDGothicNeoUL.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Apple SD Gothic Neo';
+  font-weight: 300;
+  font-style: normal;
+  src: url(../font/AppleSDGothicNeoL.woff2) format('woff2'),
+  url(../font/AppleSDGothicNeoL.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Apple SD Gothic Neo';
+  font-weight: 400;
+  font-style: normal;
+  src: url(../font/AppleSDGothicNeoR.woff2) format('woff2'),
+  url(../font/AppleSDGothicNeoR.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Apple SD Gothic Neo';
+  font-weight: 500;
+  font-style: normal;
+  src: url(../font/AppleSDGothicNeoM.woff2) format('woff2'),
+  url(../font/AppleSDGothicNeoM.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Apple SD Gothic Neo';
+  font-weight: 600;
+  font-style: normal;
+  src: url(../font/AppleSDGothicNeoSB.woff2) format('woff2'),
+  url(../font/AppleSDGothicNeoSB.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Apple SD Gothic Neo';
+  font-weight: 700;
+  font-style: normal;
+  src: url(../font/AppleSDGothicNeoB.woff2) format('woff2'),
+  url(../font/AppleSDGothicNeoB.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Apple SD Gothic Neo';
+  font-weight: 800;
+  font-style: normal;
+  src: url(../font/AppleSDGothicNeoEB.woff2) format('woff2'),
+  url(../font/AppleSDGothicNeoEB.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Apple SD Gothic Neo';
+  font-weight: 900;
+  font-style: normal;
+  src: url(../font/AppleSDGothicNeoH.woff2) format('woff2'),
+  url(../font/AppleSDGothicNeoH.woff) format('woff');
+  font-display: swap;
+}

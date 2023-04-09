@@ -1,0 +1,87 @@
+[ng-controller="MembershipController"] #txt-title {
+  position: absolute;
+  width: 377px;
+  height: 100px;
+  left: 352px;
+  top: 666px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 100px;
+  /* identical to box height, or 135% */
+
+  text-align: center;
+
+  color: #171717;
+}
+
+[ng-controller="MembershipController"] #badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 314px;
+  height: 72px;
+  left: 383px;
+  top: 814px;
+  background: #FABE00;
+  border-radius: 41px;
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+
+  color: #171717;
+
+}
+
+[ng-controller="MembershipController"] .txt-desc {
+  position: absolute;
+  height: 46px;
+  top: 910px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 800px;
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  /* identical to box height, or 128% */
+
+  text-align: center;
+
+  color: #8D8D8D;
+}
+
+[ng-controller="MembershipController"] #list {
+  position: absolute;
+  width: 1080px;
+  height: 870px;
+  top: 1050px;
+  overflow-y: auto;
+  text-align: center;
+}
+
+[ng-controller="MembershipController"] .card {
+  display: inline-block;
+  width: 945px;
+  height: 218px;
+  background: #FFFFFF;
+  border: 6px solid #D4D4D4;
+  box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 218px;
+  text-align: center;
+
+  color: #171717;
+  margin-bottom: 20px;
+}

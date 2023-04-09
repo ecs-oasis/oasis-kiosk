@@ -1,0 +1,17 @@
+<div ng-controller="AgreeController" >
+  <div id="txt-title">
+    서비스 이용약관 동의
+  </div>
+  <div id="txt-desc">
+    (주)000가 운영하는 ‘오아이스(OASIS)’는<br>
+    아래 목적으로 개인정보를 수집 및 이용하며, 회원의 개인정보를<br>
+    안전하게 취급하는데 최선을 다합니다.
+  </div>
+  <div id="box-agree">
+    <div ng-include="'pages/agree/content.html'"></div>
+  </div>
+  <div id="check-agree" ng-click="toggleAgree()">
+    <img ng-src="img/img_{{bAgree?13:6}}.png">
+    <div id="txt-check-agree">전체동의</div>
+  </div>
+</div>

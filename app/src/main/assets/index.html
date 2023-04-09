@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>오아시스 카워시</title>
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="ui/timer/timer.css">
+    <link rel="stylesheet" href="ui/input/uiinput.css">
+    <link rel="stylesheet" href="ui/navbar/navbar.css">
+    <link rel="stylesheet" href="ui/dialogtxt/dialogtxt.css">
+    <link rel="stylesheet" href="ui/dialogyn/dialogyn.css">
+    <link rel="stylesheet" href="pages/course/dialog/subscribe/subscribe.css">
+    <link rel="stylesheet" href="pages/course/dialog/purchase/purchase.css">
+    <link rel="stylesheet" href="pages/course/dialog/event/event.css">
+    <link rel="stylesheet" href="pages/main/main.css">
+    <link rel="stylesheet" href="pages/membership/membership.css">
+    <link rel="stylesheet" href="pages/welcome/welcome.css">
+    <link rel="stylesheet" href="pages/welcomehome/welcomehome.css">
+    <link rel="stylesheet" href="pages/nocarnum/nocarnum.css">
+    <link rel="stylesheet" href="pages/inputcarnum/inputcarnum.css">
+    <link rel="stylesheet" href="pages/inputbirth/inputbirth.css">
+    <link rel="stylesheet" href="pages/inputcardpw/inputcardpw.css">
+    <link rel="stylesheet" href="pages/insertcard/insertcard.css">
+    <link rel="stylesheet" href="pages/agree/agree.css">
+    <link rel="stylesheet" href="pages/agree/content.css">
+    <link rel="stylesheet" href="pages/course/course.css">
+    <link rel="stylesheet" href="pages/entercar/entercar.css">
+    <script src="./js/hangul.min.js"></script>
+<!--    <script src="./js/angular.min.js"></script>-->
+    <script src="./js/angular.js"></script>
+    <script src="./node_modules/@uirouter/angularjs/release/angular-ui-router.js"></script>
+    <script src="./app.js"></script>
+    <script src="./filter.js"></script>
+    <script src="./api.service.js"></script>
+    <script src="./routes.js"></script>
+    <script src="./tools.js"></script>
+    <script src="./nativeListener.js"></script>
+    <script src="./directive.js"></script>
+    <script src="./pages/main/main.js"></script>
+    <script src="./pages/membership/membership.js"></script>
+    <script src="./pages/welcome/welcome.js"></script>
+    <script src="./pages/welcomehome/welcomehome.js"></script>
+    <script src="./pages/nocarnum/nocarnum.js"></script>
+    <script src="./pages/inputcarnum/inputcarnum.js"></script>
+    <script src="./pages/inputbirth/inputbirth.js"></script>
+    <script src="./pages/inputcardpw/inputcardpw.js"></script>
+    <script src="./pages/insertcard/insertcard.js"></script>
+    <script src="./pages/agree/agree.js"></script>
+    <script src="./pages/course/course.js"></script>
+    <script src="./pages/entercar/entercar.js"></script>
+    <script src="./ui/input/uiinput.controller.js"></script>
+  </head>
+  <body ng-app="app" ng-controller="AppController" ng-click="startTimer()">
+    <img id="logo" src="./img/logo.png">
+    <div id="bg-board">
+    </div>
+    <ui-view></ui-view>
+
+    <div ng-if="showTimer" ng-include="'ui/timer/timer.html'"></div>
+    <div ng-include="'ui/navbar/navbar.html'"></div>
+
+    <div ng-controller="UiInputController" >
+      <div ng-if="bShowInput">
+        <div ng-include="'ui/input/inputnum.html'"></div>
+        <div ng-include="'ui/input/inputhangul.html'"></div>
+      </div>
+    </div>
+
+    <div ng-if="bShowDialogTxt" ng-include="'ui/dialogtxt/dialogtxt.html'"></div>
+    <div ng-if="bShowDialogYn" ng-include="'ui/dialogyn/dialogyn.html'"></div>
+
+<!--    <div class="btn-test test-car" ng-click="testCarIn()">입차<br>테스트</div>-->
+<!--    <div class="btn-test test-card" ng-click="testCardIn()">카드<br>테스트</div>-->
+
+  </body>
+</html>

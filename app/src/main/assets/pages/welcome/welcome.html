@@ -1,0 +1,22 @@
+<div ng-controller="WelcomeController">
+  <div id="txt-title">
+    방문해주셔서 반갑습니다.
+  </div>
+  <div id="bg-board">
+  </div>
+  <img ng-if="bAgree" class="img-check" src="img/img.png">
+  <img ng-if="!bAgree" class="img-check" src="img/img_12.png">
+  <div id="txt-label-car-num">차량번호</div>
+  <div id="txt-car-num" >{{carNum}}</div>
+  <div id="txt-client">고객님</div>
+  <div id="txt-agree-privacy">개인정보 수집 및 이용에 동의합니다.</div>
+  <img id="img-next" src="img/img_2.png">
+  <div ng-click="toggleAgree()" id="box-btn"></div>
+  <div id="box-btn-privacy" ng-click="goToPrivacy()"></div>
+  <div id="btn-next"  ng-class="{'disabled':!bAgree}" ng-click="goNext()">
+    <div id="btn-next-bg">
+    </div>
+    <div id="txt-btn-next">다음</div>
+  </div>
+
+</div>

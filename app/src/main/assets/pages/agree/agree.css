@@ -1,0 +1,80 @@
+[ng-controller="AgreeController"] #txt-title {
+  /* 서비스 이용약관 동의 */
+  position: absolute;
+  width: 683px;
+  height: 100px;
+  left: 199px;
+  top: 666px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 100px;
+  /* identical to box height, or 135% */
+
+  text-align: center;
+
+  color: #171717;
+}
+
+[ng-controller="AgreeController"] #txt-desc {
+  /* 약관동의T */
+  position: absolute;
+  left: 9.54%;
+  right: 9.54%;
+  top: 41.98%;
+  bottom: 50.52%;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  /* or 150% */
+  color: #181818;
+}
+
+[ng-controller="AgreeController"] #check-agree {
+  position: absolute;
+  width: 341.55px;
+  height: 110px;
+  left: 369px;
+  top: 1585px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+[ng-controller="AgreeController"] #box-agree {
+  position: absolute;
+  width: 945px;
+  height: 486px;
+  left: 67px;
+  top: 1010px;
+  background: #FFFFFF;
+  border: 4px solid #D4D4D4;
+  border-radius: 30px;
+}
+
+[ng-controller="AgreeController"] #check-agree > img {
+  position: relative;
+  width: 110px;
+  height: 110px;
+}
+
+[ng-controller="AgreeController"] #txt-check-agree {
+/* 전체동의 */
+  width: 208px;
+  height: 76px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 76px;
+/* identical to box height, or 141% */
+
+  display: inline-block;
+  color: #333333;
+}

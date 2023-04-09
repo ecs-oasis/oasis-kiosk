@@ -1,0 +1,13 @@
+<div id="bg-dialog" class="dialog-subscribe" ng-click="$event.stopPropagation();startTimer();">
+  <div id="box-dialog">
+    <div id="title-dialog">
+      이제부터 한달동안
+      <span>무제한 세차 코스</span>를 이용하실 수 있으며,
+      <span>월 {{curCourse.subscribePrice | currency:"":0}}</span>원 이 정기결제 됩니다.
+    </div>
+    <div id="box-btn">
+      <div id="btn-cancel" ng-click="cancel();">취소</div>
+      <div id="btn-ok" ng-click="payCard();">확인</div>
+    </div>
+  </div>
+</div>

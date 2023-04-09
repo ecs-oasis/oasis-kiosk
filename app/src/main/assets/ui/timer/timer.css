@@ -1,0 +1,26 @@
+
+#timer {
+  position: absolute;
+  width: 1080px;
+  height: 121px;
+  left: 0px;
+  top: 1799px;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+#txt-timer {
+  position: relative;
+  display: inline-block;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 121px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #181818;
+}

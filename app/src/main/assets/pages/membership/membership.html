@@ -1,0 +1,20 @@
+<div ng-controller="MembershipController" >
+  <div id="txt-title">
+    멤버십 관리
+  </div>
+  <div id="badge">
+    <span ng-if="user.subscriptionStatus == 'MEMBERSHIP_PREMIUM'">프리미엄 무제한 회원</span>
+    <span ng-if="user.subscriptionStatus == 'MEMBERSHIP'">디럭스 무제한 회원</span>
+  </div>
+  <div class="txt-desc" ng-if="!user.isSubscriptionCanceled">
+    다음 결제 예정일은 {{ user.nextPayDate | date:"MM'월' dd'일'"}} 입니다.
+  </div>
+  <div class="txt-desc" ng-if="user.isSubscriptionCanceled">
+    {{ user.nextPayDate | date:"MM'월' dd'일'"}} 일 부터 멤버쉽이 종료됩니다.
+  </div>
+  <div id="list">
+    <div class="card" ng-click="changeCard()">결제카드 변경하기</div>
+    <div class="card" ng-click="changeCourse()" ng-class="{'disabled': (user.isSubscriptionCanceled && (user.subscriptionStatus === 'MEMBERSHIP_PREMIUM'))}">멤버십 코스 변경하기</div>
+    <div class="card" ng-click="cancelMembership()" ng-class="{'disabled':user.isSubscriptionCanceled}">멤버십 취소하기</div>
+  </div>
+</div>

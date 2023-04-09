@@ -1,0 +1,116 @@
+
+[ng-controller="InputCarNumController"] #txt-title {
+  /* 방문해주셔서 반갑습니다. */
+  position: absolute;
+  width: 827px;
+  height: 100px;
+  left: 127px;
+  top: 666px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 100px;
+  /* identical to box height, or 135% */
+
+  text-align: center;
+
+  color: #171717;
+}
+
+[ng-controller="InputCarNumController"] #btn-next{
+  position: absolute;
+  width: 945px;
+  height: 232px;
+  left: 67px;
+  top: 1524px;
+}
+
+[ng-controller="InputCarNumController"] #btn-next-bg{
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #FABE00;
+  border: 6px solid #FFD44E;
+  box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+
+[ng-controller="InputCarNumController"] #txt-btn-next{
+  /* 차량번호 입력하기 */
+  position: absolute;
+  left: 27.2%;
+  right: 27.2%;
+  top: 36.21%;
+  bottom: 36.21%;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 64px;
+  text-align: center;
+
+  color: #171717;
+}
+
+[ng-controller="InputCarNumController"] #box-input-carnum {
+  position: absolute;
+  width: 530px;
+  height: 143px;
+  left: 275px;
+  top: 990px;
+}
+
+[ng-controller="InputCarNumController"] #input-carnum-hint {
+  /* 0000 0000 0000 12 */
+  width: 530px;
+  height: 119px;
+  left: 275px;
+  top: 990px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 119px;
+  text-align: center;
+  letter-spacing: -2px;
+
+  color: #C0C0C0;
+}
+
+[ng-controller="InputCarNumController"] #input-carnum {
+  /* 0000 0000 0000 12 */
+  width: 530px;
+  height: 119px;
+  left: 275px;
+  top: 990px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 119px;
+  text-align: center;
+  letter-spacing: -2px;
+
+  color: #000000;
+}
+
+[ng-controller="InputCarNumController"] #input-line {
+/* Line 10 */
+  position: absolute;
+  width: 476px;
+  height: 0px;
+  left: 302px;
+  top: 1133px;
+
+  border: 2.5px solid #C0C0C0;
+}

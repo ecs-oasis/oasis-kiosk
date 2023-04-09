@@ -1,0 +1,109 @@
+
+[ng-controller="InsertCardNumController"] #txt-title {
+  /* 방문해주셔서 반갑습니다. */
+  position: absolute;
+  width: 950px;
+  height: 100px;
+  left: 78px;
+  top: 666px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 100px;
+  /* identical to box height, or 135% */
+
+  text-align: center;
+
+  color: #171717;
+}
+
+[ng-controller="InsertCardNumController"] #btn-next{
+  position: absolute;
+  width: 945px;
+  height: 232px;
+  left: 67px;
+  top: 1524px;
+}
+
+[ng-controller="InsertCardNumController"] #btn-next-bg{
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #FABE00;
+  border: 6px solid #FFD44E;
+  box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+
+[ng-controller="InsertCardNumController"] #txt-btn-next{
+  /* 차량번호 입력하기 */
+  position: absolute;
+  left: 27.2%;
+  right: 27.2%;
+  top: 36.21%;
+  bottom: 36.21%;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 64px;
+  text-align: center;
+
+  color: #171717;
+}
+
+[ng-controller="InsertCardNumController"] img {
+  position: absolute;
+  width: 386px;
+  height: 438px;
+  left: 347px;
+  top: 936px;
+}
+
+[ng-controller="InsertCardNumController"] #txt-desc {
+  /* 카드 등록 후 결제 및 세차가 가능합니다. */
+  position: absolute;
+  width: 837px;
+  height: 70px;
+  left: 122px;
+  top: 806px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 70px;
+  /* identical to box height, or 146% */
+
+  text-align: center;
+
+  color: #333333;
+}
+
+[ng-controller="InsertCardNumController"] #txt-desc2 {
+  /* 그림과 같은 방향으로 IC카드 삽입 후 회수해주세요. */
+  position: absolute;
+  width: 800px;
+  height: 46px;
+  left: 140px;
+  top: 1414px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  /* identical to box height, or 128% */
+
+  text-align: center;
+
+  color: #333333;
+}

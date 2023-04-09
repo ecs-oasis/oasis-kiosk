@@ -1,0 +1,62 @@
+.dialog-event#bg-dialog {
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  background: #000000aa;
+  z-index: 9;
+}
+
+.dialog-event #box-dialog {
+  position: absolute;
+  width: 1080px;
+  height: 1216px;
+  left: 0px;
+  top: 703px;
+
+  border-radius: 55px 55px 0px 0px;
+  background-image: url("../../../../img/img_10.png");
+  background-size: contain;
+}
+
+.dialog-event #btn-cancel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 515px;
+  height: 232px;
+  left: 0px;
+  top: 1688px;
+
+  background: #000000;
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 64px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dialog-event #btn-ok {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 565px;
+  height: 232px;
+  left: 515px;
+  top: 1688px;
+
+  background: #000000;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 64px;
+  text-align: center;
+
+  color: #FFFFFF;
+}

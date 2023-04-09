@@ -1,0 +1,100 @@
+.dialog-purchase#bg-dialog {
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  background: #000000aa;
+  z-index: 9;
+}
+
+.dialog-purchase #box-dialog {
+  position: absolute;
+  width: 945px;
+  height: 695px;
+  left: 67px;
+  top: 777px;
+  background: #FFFFFF;
+  border-radius: 55px;
+}
+
+.dialog-purchase #desc-dialog span{
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.dialog-purchase #desc-dialog {
+  position: absolute;
+  width: 518px;
+  height: 140px;
+  left: 213px;
+  top: 274px;
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 70px;
+  text-align: center;
+  color: #171717;
+}
+
+.dialog-purchase #title-dialog {
+  position: absolute;
+  width: 610px;
+  height: 70px;
+  left: 168px;
+  top: 147px;
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 70px;
+  text-align: center;
+  color: #171717;
+}
+
+.dialog-purchase #box-btn {
+  gap: 20px;
+  position: absolute;
+  width: 853px;
+  height: 143px;
+  left: 50px;
+  top: 496px;
+  display: flex;
+}
+
+.dialog-purchase #btn-ok {
+  /* Rectangle 45 */
+  flex: 1;
+  background: #FABE00;
+  border-radius: 20px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  color: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-purchase #btn-cancel {
+  /* Rectangle 46 */
+  flex: 1;
+  background: #E1E1E1;
+  border-radius: 16px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  color: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

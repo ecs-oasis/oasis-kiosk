@@ -1,0 +1,32 @@
+<div ng-controller="EnterCarController" >
+
+  <div class="txt-title" ng-if="justPaid">
+    결제 완료!<br>
+    입차 해주세요.
+  </div>
+  <div class="txt-sub-title" ng-if="!justPaid">
+    {{carNum}} 고객님은 정기 결제 회원입니다.
+  </div>
+  <div class="txt-main-title" ng-if="!justPaid">
+    입차 해주세요.
+  </div>
+  <div id="txt-badge" ng-if="isSubscription">{{course.name.split(" ")[0]}} 무제한 회원</div>
+  <img id="img-icon" src="img/img_14.png" />
+  <div class="txt-desc" ng-if="!justPaid">
+    정기 결제 회원이므로
+    무제한으로 세차 이용이 가능합니다.
+  </div>
+  <div class="txt-desc" ng-if="justPaid && isSubscription">
+    이제부터 {{course.name}}를<br>
+    무제한으로 세차 이용이 가능합니다.
+  </div>
+  <div class="txt-desc" ng-if="justPaid && !isSubscription">
+    결제가 완료되었습니다.<br>
+    세차 코스를 이용해주세요.
+  </div>
+  <div id="btn-next" ng-click="goNext();">
+    <div id="btn-next-bg">
+    </div>
+    <div id="txt-btn-next">완료</div>
+  </div>
+</div>
